@@ -39,6 +39,10 @@ table {
     border-collapse: collapse;
   }
 
+  tr:nth-child(even) {
+    background-color: #dddddd; /* Sets a light gray background color */
+  }
+
   th {
     border:1px solid black;
     background-color: lightgray;
@@ -63,4 +67,12 @@ table {
   .table-data {
     text-align: left;
     padding-left: 10px;
+  }
+
+  #footer-table {
+    background-color: lightgray;
+  }
+  #bottom-div {
+    text-align: right;
+    margin-top: 50px;
   }
