@@ -102,3 +102,9 @@ table {
     text-align: right;
     margin-top: 50px;
   }
+
+  #bottom-div-r {
+    text-align: right;
+    margin-top: 50px;
+    background-color: red;
+  }
