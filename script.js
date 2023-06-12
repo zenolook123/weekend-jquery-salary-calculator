@@ -28,8 +28,8 @@ $(document).ready(getReady)
 
       
      
-      $('#monthly-total').text((salary/12) += monthlyTotal)
-      monthlyTotal = (($('#monthly-total').text())* 1)
+      $('#monthly-total').text((salary / 12) + monthlyTotal).toFixed(2)
+      monthlyTotal = (($('#monthly-total').text())* 1).toFixed(2)
 
       checkMonthlyTotal()
 
