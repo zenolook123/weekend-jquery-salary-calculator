@@ -27,9 +27,8 @@ $(document).ready(getReady)
       $('table tbody').append(newTableRow);
 
       
-      console.log(salary = (salary)* 1)
      
-      $('#monthly-total').text(salary += monthlyTotal)
+      $('#monthly-total').text((salary/12) += monthlyTotal)
       monthlyTotal = (($('#monthly-total').text())* 1)
 
       checkMonthlyTotal()
