@@ -5,7 +5,7 @@ $(document).ready(getReady)
 
     function getReady(){
 
-      monthlyTotal = (($('#monthly-total').text())* 1)
+      monthlyTotal = ((($('#monthly-total').text())* 1) / 12)
       checkMonthlyTotal
 
     $('#submit-button').click( function() {
@@ -27,10 +27,10 @@ $(document).ready(getReady)
       $('table tbody').append(newTableRow);
 
       
-      console.log(salary = (salary)* 1)
+      console.log(salary = (salary)/12)
      
-      $('#monthly-total').text(salary += monthlyTotal)
-      monthlyTotal = (($('#monthly-total').text())* 1)
+      $('#monthly-total').text(salary += (monthlyTotal / 12))
+      monthlyTotal = ((($('#monthly-total').text())* 1) / 12)
 
       checkMonthlyTotal()
 
