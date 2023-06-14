@@ -29,7 +29,7 @@ $(document).ready(getReady)
       
       console.log(salary = (salary)/12)
      
-      $('#monthly-total').text(salary += (monthlyTotal / 12))
+      $('#monthly-total').text(Math.floor(salary += (monthlyTotal / 12)))
       monthlyTotal = ((($('#monthly-total').text())* 1) / 12)
 
       checkMonthlyTotal()
